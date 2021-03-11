@@ -1,0 +1,9 @@
+{
+  "name": "with_appconfig_without_navigation",
+  "provider": "sap",
+  "description": "with_appconfig_without_navigation",
+  "version": "0.0.1",
+  "icon": "",
+  "parameters": [],
+  "shellNavigation": null
+}

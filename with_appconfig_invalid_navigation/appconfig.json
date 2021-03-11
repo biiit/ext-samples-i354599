@@ -1,0 +1,24 @@
+{
+  "name": "with_appconfig_invalid_navigation",
+  "provider": "sap",
+  "description": "with_appconfig_invalid_navigation",
+  "version": "0.0.1",
+  "icon": "",
+  "parameters": [],
+  "shellNavigation": {
+    "icon": "some-sap-icon",
+    "sideNavigation": [{
+      "labelTranslations": [{
+        "lang": "en",
+        "value": "Home"
+      }, {
+        "lang": "de",
+        "value": "Startseite"
+      }],
+      "viewUrl": "/",
+      "icon": "home",
+      "isDefault": true,
+      "children": []
+    }]
+  }
+}

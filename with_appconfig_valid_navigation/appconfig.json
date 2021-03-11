@@ -1,0 +1,51 @@
+{
+  "name": "with_appconfig_valid_navigation",
+  "provider": "sap",
+  "description": "with_appconfig_valid_navigation",
+  "version": "0.0.1",
+  "icon": "",
+  "parameters": [],
+  "shellNavigation": {
+    "icon": "some-sap-icon",
+    "sideNavigation": [{
+      "pathSegment": "home",
+      "labelTranslations": [{
+        "lang": "en",
+        "value": "Home"
+      }, {
+        "lang": "de",
+        "value": "Startseite"
+      }],
+      "viewUrl": "/",
+      "icon": "home",
+      "isDefault": true,
+      "children": []
+    }, {
+      "pathSegment": "actions",
+      "labelTranslations": [{
+        "lang": "en",
+        "value": "Actions"
+      }, {
+        "lang": "de",
+        "value": "Aktionen"
+      }],
+      "viewUrl": null,
+      "icon": "activity-2",
+      "isDefault": false,
+      "children": [{
+        "pathSegment": "edit",
+        "labelTranslations": [{
+          "lang": "en",
+          "value": "Edit"
+        }, {
+          "lang": "de",
+          "value": "Editieren"
+        }],
+        "viewUrl": "/activities/actions/edit",
+        "icon": "edit",
+        "isDefault": false,
+        "children": []
+      }]
+    }]
+  }
+}

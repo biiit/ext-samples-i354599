@@ -21,7 +21,7 @@
       "isDefault": true,
       "children": []
     }, {
-      "pathSegment": "actions",
+      "pathSegment": "home",
       "labelTranslations": [{
         "lang": "en",
         "value": "Actions"
@@ -29,7 +29,7 @@
         "lang": "de",
         "value": "Aktionen"
       }],
-      "viewUrl": "/",
+      "viewUrl": null,
       "icon": "activity-2",
       "isDefault": false,
       "children": [{

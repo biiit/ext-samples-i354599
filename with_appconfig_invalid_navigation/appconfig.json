@@ -29,9 +29,9 @@
         "lang": "de",
         "value": "Aktionen"
       }],
-      "viewUrl": "/actions",
+      "viewUrl": "/",
       "icon": "activity-2",
-      "isDefault": true,
+      "isDefault": false,
       "children": [{
         "pathSegment": "edit",
         "labelTranslations": [{

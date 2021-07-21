@@ -1,0 +1,44 @@
+{
+  "name": "with_parameters_and_translations",
+  "provider": "sap",
+  "description": "with_parameters_and_translations",
+  "version": "0.0.1",
+  "icon": "",
+  "parameters": [
+    {
+      "name": "apiKey",
+      "required": false,
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "API Key"
+        },
+        {
+          "lang": "de",
+          "value": "API-Schlüssel"
+        }
+      ],
+      "placeholderTranslations": [
+        {
+          "lang": "en",
+          "value": "API key received in the confirmation mail"
+        },
+        {
+          "lang": "de",
+          "value": "API-Schlüssel, den Sie in der Bestätigungsmail erhalten haben"
+        }
+      ]
+    },
+    {
+      "name": "systemUrl",
+      "required": true,
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "System URL"
+        }
+      ]
+    }
+  ],
+  "shellNavigation": null
+}

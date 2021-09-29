@@ -38,6 +38,68 @@
           "value": "System URL"
         }
       ]
+    },
+    {
+      "name": "useConfig1",
+      "type": "BOOLEAN",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "Use configuration 1"
+        },
+        {
+          "lang": "de",
+          "value": "Konfiguration 1 verwenden"
+        }
+      ]
+    },
+    {
+      "name": "param1",
+      "required": true
+    },
+    {
+      "name": "apiKey2",
+      "required": true,
+      "type": "TEXT",
+      "regexValidation": "^[a-zA-Z-]+$",
+      "placeholderTranslations": [
+        {
+          "lang": "en",
+          "value": "API key"
+        },
+        {
+          "lang": "de",
+          "value": "API-Schlüssel"
+        }
+      ]
+    },
+    {
+      "name": "useConfig2",
+      "type": "BOOLEAN",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "Use configuration 2"
+        },
+        {
+          "lang": "de",
+          "value": "Konfiguration 2 verwenden"
+        }
+      ]
+    },
+    {
+      "name": "useConfig3",
+      "type": "BOOLEAN",
+      "labelTranslations": [
+        {
+          "lang": "en",
+          "value": "Use configuration 3"
+        },
+        {
+          "lang": "de",
+          "value": "Konfiguration 3 verwenden"
+        }
+      ]
     }
   ],
   "shellNavigation": null
